@@ -32,6 +32,9 @@ h2 {
 
 p {
   font-size: medium;
+  span {
+    color: #f3b0ff;
+  }
 }
 
 nav ul {
@@ -40,10 +43,11 @@ nav ul {
   li {
     margin-right: 1rem;
     font-size: small;
-    a {
-      color: white;
-    }
   }
+}
+
+a {
+  color: white;
 }
 
 footer {

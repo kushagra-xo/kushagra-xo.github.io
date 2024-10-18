@@ -17,10 +17,17 @@ body {
 }
 header {
   display: flex;
-  flex-direction: column;
+  img {
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 h1 {
-  font-size: 2.6rem;
   font-weight: 700;
   text-shadow: 1px 1px 4px #a8a8a8;
 }
@@ -62,10 +69,28 @@ footer {
     margin: 2rem;
     width: 100%;
   }
+  header {
+    img {
+      height: 4rem;
+      width: 4rem;
+    }
+    h1 {
+      font-size: x-large;
+    }
+  }
 }
 
 @media (min-width: 1025px) {
   body {
     width: 40%;
+  }
+  header {
+    img {
+      height: 6rem;
+      width: 6rem;
+    }
+    h1 {
+      font-size: 2.6rem;
+    }
   }
 }
